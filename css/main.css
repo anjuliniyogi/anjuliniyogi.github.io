@@ -3,20 +3,6 @@ body {
     width: 70%;
 }
 
-.profile-pic {
-    max-width: 10px; /* Set a small max width */
-    height: auto;     /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: Makes the picture round */
-}
-
-@media (min-width: 200px) {
-    .profile-pic {
-        float: right;
-        margin: 7px 0px 0px 20px;
-        max-width: 40px; /* Even smaller for medium screens */
-    }
-}
-
 @media (min-width: 1300px) {
     body {
         display: flex;
@@ -26,11 +12,6 @@ body {
     footer {
         margin-top: 20px;
         height: 20px;
-    }
-    .profile-pic {
-        float: right;
-        margin: 7px 20px 0px 20px;
-        max-width: 40px; /* Small size on large screens */
     }
 }
 
