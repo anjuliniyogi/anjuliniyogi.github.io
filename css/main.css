@@ -32,12 +32,12 @@ p {
 
 /* Link styling */
 a {
-    color: #666; /* Grey color for links */
+    color: #848482; /* Grey color for links */
     text-decoration: none;
 }
 
 a:hover {
-    color: #333; /* Slightly darker grey on hover for contrast */
+    color: #696969; /* Slightly darker grey on hover for contrast */
     text-decoration: underline; /* Optional: Underline to indicate hover */
 }
 
