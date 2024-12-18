@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="icon" href="../favicon.ico">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-54Q6DQZ7QK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-54Q6DQZ7QK');
+    </script>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="/">About</a></li>
+        <li><a href="/resources">Resources</a></li>
+    </ul>
+</nav>
+<div class="container">
+
+    {{ content }}
+
+</div><!-- /.container -->
+<footer>
+    <ul>
+        <li><a href="mailto:gaiamolinaro@berkeley.edu"><img src="../images/email_logo.png" alt="email" width="20"></a></li>
+        <li><a href="https://github.com/anjuliniyogi" target="_blank"><img src="../images/github_logo.png" alt="github" width="20"></a></li>
+        <li><a href="https://www.linkedin.com/in/anjuliniyogi/" target="_blank"><img src="../images/linkedin_logo.png" alt="linkedin" width="20"></a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

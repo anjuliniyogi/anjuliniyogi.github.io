@@ -13,6 +13,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Header (h1) styling */
+h2 {
+    font-size: 2em; /* Adjusted to be big, but not overwhelming */
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 /* Paragraph styling */
 p {
     font-size: 1.2em;
